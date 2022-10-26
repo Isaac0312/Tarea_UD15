@@ -1,0 +1,67 @@
+use LIGA;
+
+INSERT INTO PERSONA(dni,nombre,apellidos,genero,edad) values('47189845','dani','martos','M',20),
+('45473696','jorge','lopez','M',24),
+('44312345','manolo','bartolo','M',23),
+('35235553','andres','calves','M',22),
+('45432345','sara','cara','F',27),
+('43253451','pepita','grilla','F',18),
+('24325156','pablo','meta','M',19),
+('64326431','ana','bolo','F',30),
+('23432156','maria','palotes','F',26),
+('75437886','fina','filipina','F',21),
+('43253654','dani','martos','M',20),
+('65436633','jorge','lopez','M',24),
+('54325432','manolo','bartolo','M',23),
+('23454251','andres','calves','M',22),
+('34132444','sara','cara','F',27),
+('53524355','pepita','grilla','F',18),
+('65475476','pablo','meta','M',19),
+('86586548','ana','bolo','F',30),
+('54363623','maria','palotes','F',26),
+('43623463','fina','filipina','F',21);
+
+
+INSERT INTO EQUIPOS(id_equipo,nombre,num_puntos,num_ganados,num_perdidos,num_empatados,num_goles) values('RM','Real Madrid',32,4,2,4,35),
+('FCB','Futbol Club Barcelona',38,6,2,4,43),
+('RCDE','Real Club Deportipo Español',23,2,2,6,25),
+('ATM','Atletico de Madrid',35,4,2,4,45),
+('ATH','Athletic Club de Bilbao',22,4,2,4,32),
+('SEV','Sevilla',21,4,2,4,21),
+('BET','Betis',27,4,2,4,34),
+('VILL','Villarreal',29,4,2,4,37),
+('UDLP','Union Deportiva Las Palmas',15,1,1,8,17),
+('GET','Getafe',19,1,3,6,19);
+
+INSERT INTO JUGADOR(dni,posicion,dorsal,num_goles,num_asist,num_tarjetas,equipo) values('47189845','DEL',4,9,1,1,'BET'),
+('45473696','DEF',7,0,1,5,'RM'),
+('44312345','POR',1,0,0,1,'SEV'),
+('35235553','MED',2,2,4,1,'FCB'),
+('45432345','MED',9,3,5,2,'ATM'),
+('43253451','MED',10,4,5,1,'VILL'),
+('24325156','DEF',3,0,0,3,'ATH'),
+('64326431','DEF',5,0,2,2,'GET'),
+('23432156','DEL',6,4,0,0,'RCDE'),
+('75437886','DEL',8,5,3,1,'UDLP');
+
+INSERT INTO ENTRENADOR(dni,num_temp,num_titulos,equipo) values ('43253654',1,0,'BET'),
+('65436633',2,1,'RM'),
+('54325432',3,3,'SEV'),
+('23454251',1,4,'FCB'),
+('34132444',2,3,'ATM'),
+('53524355',6,4,'VILL'),
+('65475476',1,1,'ATH'),
+('86586548',2,0,'GET'),
+('54363623',7,0,'RCDE'),
+('43623463',3,1,'UDLP');
+
+INSERT INTO JUEGA(id_partido,id_local,id_visitante,num_goles_local,num_goles_visitante) values (1,'RM','UDLP',1,0),
+(2,'FCB','BET',2,0),
+(3,'SEV','RCDE',2,2),
+(4,'VILL','GET',2,1),
+(5,'ATM','ATH',1,1),
+(6,'ATH','ATM',3,1),
+(7,'GET','VILL',1,3),
+(8,'RCDE','SEV',4,5),
+(9,'BET','FCB',1,0),
+(1,'UDLP','RM',1,0);
