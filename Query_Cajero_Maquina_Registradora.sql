@@ -1,0 +1,44 @@
+use ejercicio10;
+INSERT INTO Cajeros VALUES (1,'Consolacion Salazar');
+INSERT INTO Cajeros VALUES (2,'Guillermo Ramos');
+INSERT INTO Cajeros VALUES (3,'Ikram Alarcon');
+INSERT INTO Cajeros VALUES (4,'Fabio Merchan');
+INSERT INTO Cajeros VALUES (5,'Mauricio Rubio');
+INSERT INTO Cajeros VALUES (6,'António del Olmo');
+INSERT INTO Cajeros VALUES (7,'Bilal Lorenzo');
+INSERT INTO Cajeros VALUES (8,'Xavier Ferreiro');
+INSERT INTO Cajeros VALUES (9,'Carlos Sanz');
+INSERT INTO Cajeros VALUES (10,'Candida Salvador');
+
+INSERT INTO Maquinas_Registradoras VALUES (1,1);
+INSERT INTO Maquinas_Registradoras VALUES (2,1);
+INSERT INTO Maquinas_Registradoras VALUES (3,1);
+INSERT INTO Maquinas_Registradoras VALUES (4,2);
+INSERT INTO Maquinas_Registradoras VALUES (5,2);
+INSERT INTO Maquinas_Registradoras VALUES (6,3);
+INSERT INTO Maquinas_Registradoras VALUES (7,4);
+INSERT INTO Maquinas_Registradoras VALUES (8,4);
+INSERT INTO Maquinas_Registradoras VALUES (9,4);
+INSERT INTO Maquinas_Registradoras VALUES (10,4);
+
+INSERT INTO Productos VALUES(1,'3.99','Ropa');
+INSERT INTO Productos VALUES(2,'0.99','Chicle');
+INSERT INTO Productos VALUES(3,'38.99','Estufa');
+INSERT INTO Productos VALUES(4,'12.65','Manta');
+INSERT INTO Productos VALUES(5,'2.99','Pescado');
+INSERT INTO Productos VALUES(6,'5.99','Pollo');
+INSERT INTO Productos VALUES(7,'7.44','Chanclas');
+INSERT INTO Productos VALUES(8,'80.99','Chaqueta');
+INSERT INTO Productos VALUES(9,'100.95','Bambas');
+INSERT INTO Productos VALUES(10,'1277.99','Ordenador');
+
+INSERT INTO Venta VALUES(1,1,1); 
+INSERT INTO Venta VALUES(1,1,2); 
+INSERT INTO Venta VALUES(2,2,3); 
+INSERT INTO Venta VALUES(2,2,4); 
+INSERT INTO Venta VALUES(3,4,5); 
+INSERT INTO Venta VALUES(4,6,6); 
+INSERT INTO Venta VALUES(7,8,7); 
+INSERT INTO Venta VALUES(8,5,8); 
+INSERT INTO Venta VALUES(9,5,9); 
+INSERT INTO Venta VALUES(10,10,10); 
